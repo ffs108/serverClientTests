@@ -128,10 +128,6 @@ int main(int argc , char *argv[])
 		// very confused about the nonblocking here, supposedly took the time for the server to read and accept
 		//bytesRead even when they might have been errs and sleep so it can wait on a new batch of bytesRead
 		// then I write out into the client what I got back and proceed with my day was this implementation correct?
-		// I know I followed the listening socket structure a lot and I did rewatch lecture a couple times but I'm still
-		// not sure. At the very least it compiles and runs the server, debugging also let me know it was fine but sometimes
-		// it would not play nice with me. Let me know if you can in the feedback for this assignment pls!
-
 
 	if (bytesRead == 0)
 	{
